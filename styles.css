@@ -12,11 +12,20 @@
     color: blue;
     transition: color 0.2s;
     text-decoration: none;
+    margin: 0 10px;
 }
 
 .social-icon-black{
     color: black;
     transition: color 0.2s;
+    margin: 0 10px;
+
+
+}
+
+.social-icon-red{
+    transition: color 0.2s;
+    margin: 0 10px;
 
 }
 
