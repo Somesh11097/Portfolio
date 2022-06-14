@@ -5,6 +5,45 @@ body{
     
 }
 
+.main-container{
+    display:flex;
+    justify-content: center;
+}
+
+.flexbox{
+    width:500px;
+    margin: 10px;
+    border: 2px solid white;
+
+}
+.box-1{
+   min-height: 400px;
+    
+    
+    
+}
+
+.box-2{
+    min-height: 400px;
+    
+    
+}
+
+.box-3{
+    min-height: 400px;
+    
+    
+    
+    
+}
+
+.box-4{
+    min-height: 400px;
+    
+    
+    
+}
+
 
 .footer{
     /* background-color: var(--primary);
