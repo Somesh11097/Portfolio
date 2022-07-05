@@ -3,17 +3,27 @@
     padding:0;
 }
 
-.sidebar{
-    background-color: red;
-    width: 20vw;
-
+.btn{
+    /* background-color: blue; */
+    text-decoration: none;
+    border-radius: 7px;
+    width: 100px;
+    height: 27px;
+    color:beige;
+    
+}
+body{
+    background-color: gray;
+    color:antiquewhite;
+}
+.skills{
+    border: 2px solid black;
 }
 
-.main{
-    background-color: yellow;
-    width: 80vw;
+.projects{
+    border: 2px solid black;
 }
 
-.container{
-    display:flex;
+.contact{
+    border: 2px solid black;
 }
