@@ -147,6 +147,18 @@ li{
     
 }
 
+.grid-three-column{
+    
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.grid-four-column{
+    
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
 .section-hero{
     background-color: var(--bg);
 }
@@ -246,3 +258,109 @@ Bio and Skills sections starts */
 /* Project section starts from here */
 
 
+.web-link{
+    color: var(--helper);
+}
+
+/* contact us section starts from here */
+
+.section-contact-main{
+    max-width: 70rem;
+    margin:0 auto;
+    margin-top: 9rem;
+    transition: all 0.3s linear;
+
+}
+
+/* This is used to make sure that the form content are one below the other  */
+.section-contact-main form{
+    display:flex;
+    flex-direction: column;
+    gap: 3.2rem;
+
+}
+
+.section-contact-main input, 
+.section-contact-main textarea{
+    padding: 1.5rem 2 rem;
+    border: 0.1rem solid #c9c9c9;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-family: "work sans";
+    width: 100%;
+
+}
+
+.section-contact-main input[type="submit"]{
+    max-width: 30%;
+    border: none;
+
+}
+
+
+/* Footer section */
+
+.section-footer{
+    background: var(--heading);
+    transition: all 0.7s linear;
+
+}
+
+.section-footer h3{
+    color: var(--white);
+    margin-bottom: 4rem;
+}
+
+.f-about p{
+    color: #adadad;
+}
+
+.f-links ul, .f-address address{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    justify-content: center;
+
+}
+
+.f-links li, .f-links a{
+    font-size: 1.8rem;
+    color: #adadad;
+    text-transform: capitalize;
+    
+}
+
+.f-address span{
+    font-style: normal;
+    color:#adadad;
+
+
+}
+
+.f-social-icons{
+    margin: 5rem 0;
+    text-align: center;
+    color: #adadad;
+}
+
+/* .f-social-icons .icon{
+    width:10rem;
+    height:4rem;
+    background: rgba(144, 172,208, 0.2);
+    display: inline-block;
+    padding: 1.4rem 1.8rem;
+    position: relative;
+    color: var(--heading);
+
+} */
+
+.f-credits p{
+    margin-top:2rem;
+    text-align: center;
+    color:#adadad;
+}
+
+.f-links a:hover, 
+.f-links a:active{
+    color: var(--white);
+}
