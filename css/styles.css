@@ -103,21 +103,21 @@ li{
     color:var(--helper);
 }
 
-.mobile-navbar-btn{
+/* .mobile-navbar-btn{
     display:none;
     background-color: transparent;
     cursor: pointer;
     pointer: none;
 
 }
-.mobile-navbar-btn[name="close"]{
+.mobile-navbar-icon[name="close"]{
     display: none;
-}
+} */
 
 
 /* media queries to make navbar responsive */
 
-@media (max-width: 980px){
+/* @media (max-width: 980px){
     .header{
         position: relative;
     }
@@ -127,7 +127,7 @@ li{
         border: 3px solidvar(--black);
         color: #212529;
     }
-}
+} */
 
 
 

@@ -16,7 +16,7 @@
 
         <nav class="navbar">
             <ul class="navbar-lists">
-                <li> <a href="#" class="navbar-link home-link">Home</a> </li>  
+                <li> <a href="/index.html" class="navbar-link home-link">Home</a> </li>  
                 <li> <a href="/about.html" class="navbar-link about-link">About</a> </li> 
                 <li> <a href="/project.html" class="navbar-link project-link">Project</a> </li> 
                 <li> <a href="/contact.html" class="navbar-link contact-link">Contact</a> </li>               
@@ -32,22 +32,24 @@
         </div>
 
         <div class="section-contact-main contact container">
-            <form action="">
+            <form action="https://formspree.io/f/mjvlnryg"
+            method="POST">
+            
                 <div class="grid grid-two-column">
                    <div>
                     <label for="username"></label>
-                    <input type="text" name="Username" placeholder="Usernsme" id="username">
+                    <input type="text" name="Username" placeholder="Username" id="username" required autocomplete="off" >
                    </div>
 
                    <div>
                     <label for="email"></label>
-                    <input type="text" name="email" placeholder="Email" id="email">
+                    <input type="email" name="email" placeholder="demo@gmail.com" id="email" required autocomplete="off">
                    </div>
                 </div>
 
                 <div>
                     <label for="subject"></label>
-                    <input type="text" name="subject" placeholder="Subject" id="subject">
+                    <input type="text" name="subject" placeholder="Subject" id="subject" required autocomplete="off">
                 </div>
 
                 <div>
@@ -56,7 +58,7 @@
                     name="textarea" 
                     id="textarea" 
                     cols="30" 
-                    rows="10"></textarea>
+                    rows="10" required autocomplete="off" ></textarea>
                 </div>
 
                 <div>
